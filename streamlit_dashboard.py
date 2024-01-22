@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 def get_mongodb_data():
     # Replace the placeholders with your MongoDB connection details
     
-    mongodb_uri = 'mongodb+srv://DE-Mente:asdasdasd@cluster0.em28so6.mongodb.net'
+    mongodb_uri = 'mongodb+srv://DE-Mente:asdasdasd@cluster.mongodb.net'
     database_name='mydatabase'
     collection_name = 'mycollection'
 

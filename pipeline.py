@@ -17,7 +17,7 @@ api_url = "https://data.sfgov.org/resource/g8m3-pdis.json"
 # Example query 
 query = "limit=100"
 
-mongodb_uri = 'mongodb+srv://DE-Mente:asdasdasd@cluster0.em28so6.mongodb.net'
+mongodb_uri = 'mongodb+srv://DE-Mente:asdasdasd@cluster.mongodb.net'
 database_name='mydatabase'
 collection_name = 'mycollection'
 

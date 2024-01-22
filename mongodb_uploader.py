@@ -10,10 +10,10 @@ mongo_port = 27017
 # otherwise, using the connection string:
 mongodb_uri = 'mongodb://localhost:27017/'
 
-mongo_uri = 'mongodb+srv://DE-Mente:asdasdasd@cluster0.wkcwupb.mongodb.net/'
+mongo_uri = 'mongodb+srv://DE-Mente:asdasdasd@cluster.mongodb.net/'
 
 connection_uri = 'mongodb+srv://<username>:<password>@<cluster>/<database>?retryWrites=true&w=majority'
-connection_uri = 'mongodb+srv://DE-Mente:asdasdasd@cluster0.wkcwupb.mongodb.net/mydatabase?retryWrites=true&w=majority'
+connection_uri = 'mongodb+srv://DE-Mente:asdasdasd@cluster.mongodb.net/mydatabase?retryWrites=true&w=majority'
 
 
 def upload_to_mongodb(dataframe, connection_uri, collection_name = 'mycollection', database_name='mydatabase'):    
