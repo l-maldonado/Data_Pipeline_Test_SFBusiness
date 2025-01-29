@@ -78,7 +78,16 @@ def data_pipeline(api_url, query, mongodb_uri, database_name, collection_name):
     
 
 if __name__ == "__main__":
-    run_data_pipeline()
+    import sys
+    
+    # Extract command line arguments
+    args = sys.argv[1:]
+
+    # Check if the method should be called
+    if args[0] == "data_pipeline":
+        # Call the fetch_data method with the provided argument
+        result = data_pipeline(args[1])
+        print(result)
     
 
 #===========================================================
